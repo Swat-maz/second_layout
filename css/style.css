@@ -1,3 +1,5 @@
+@font-face {font-family:"Open Sans Condensed Light";src:url("/font_face/OpenSans-CondLight.eot") format("eot"),url("/font_face/OpenSans-CondLight.svg") format("woff"),url("/font_face/OpenSans-CondLight.ttf") format("truetype"),url("/font_face/OpenSans-CondLight.woff") format("svg");font-weight:normal;font-style:normal;}
+
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +75,8 @@ header {
   height: 81px;
   font-size: 40px;
   letter-spacing: 1px;
-  font-family: "Open Sans - Condensed Light";
+  line-height: 46px;
+  font-family: "Open Sans Condensed Light";
 }
 
 
@@ -130,7 +133,7 @@ header {
   display: flex;
   background-color: #f8f8f8;
   height: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 
@@ -145,7 +148,8 @@ header {
 /* Content */
 .content {
   height: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 195px;
+  margin-top: 15px;
 }
 .content .container {
   display: flex;
@@ -221,5 +225,43 @@ header {
 .footer {
   margin-top: auto;
   height: 220px;
-  
+}
+.footer ul {
+  width: 119px;
+  height: 117px;
+}
+
+.footer ul li {
+  list-style-type: none;
+
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+
+
+.menu__foot {
+  text-decoration: underline;
+}
+
+.foot__logo {
+  display: flex;
+}
+
+.foot__logo img {
+  margin-right: 9px;
+}
+
+.foot__logo a {
+  text-decoration: underline;
+}
+
+.foot__logo div {
+  height: 33px;
+  width: 170px;
+  margin-top: -6px;
 }
